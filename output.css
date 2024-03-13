@@ -651,6 +651,11 @@ video {
   margin-right: 19px;
 }
 
+.mx-\[26px\]{
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -692,12 +697,12 @@ video {
   margin-left: 10.4px;
 }
 
-.ml-\[15px\]{
-  margin-left: 15px;
-}
-
 .ml-\[20px\]{
   margin-left: 20px;
+}
+
+.ml-\[31px\]{
+  margin-left: 31px;
 }
 
 .ml-\[32px\]{
@@ -832,6 +837,10 @@ video {
   margin-top: 21px;
 }
 
+.mt-\[24px\]{
+  margin-top: 24px;
+}
+
 .mt-\[25px\]{
   margin-top: 25px;
 }
@@ -904,6 +913,14 @@ video {
   margin-top: 9.43px;
 }
 
+.ml-\[7\.36\]{
+  margin-left: 7.36;
+}
+
+.mt-\[14px\]{
+  margin-top: 14px;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -968,20 +985,12 @@ video {
   height: 100%;
 }
 
-.h-\[\]{
-  height: ;
-}
-
-.h-\[279\]{
-  height: 279;
-}
-
-.h-\[279px\]{
-  height: 279px;
-}
-
 .max-h-\[420px\]{
   max-height: 420px;
+}
+
+.min-h-\[228px\]{
+  min-height: 228px;
 }
 
 .min-h-\[24px\]{
@@ -1073,10 +1082,6 @@ video {
   width: 100%;
 }
 
-.w-\[190px\]{
-  width: 190px;
-}
-
 .min-w-\[100px\]{
   min-width: 100px;
 }
@@ -1089,8 +1094,16 @@ video {
   min-width: 105px;
 }
 
+.min-w-\[109px\]{
+  min-width: 109px;
+}
+
 .min-w-\[163px\]{
   min-width: 163px;
+}
+
+.min-w-\[190px\]{
+  min-width: 190px;
 }
 
 .min-w-\[240px\]{
@@ -1101,8 +1114,8 @@ video {
   min-width: 64px;
 }
 
-.min-w-\[80px\]{
-  min-width: 80px;
+.min-w-\[90px\]{
+  min-width: 90px;
 }
 
 .max-w-\[100px\]{
@@ -1163,6 +1176,10 @@ video {
 
 .max-w-\[1318px\]{
   max-width: 1318px;
+}
+
+.max-w-\[131px\]{
+  max-width: 131px;
 }
 
 .max-w-\[1323px\]{
@@ -1243,6 +1260,10 @@ video {
 
 .max-w-\[194px\]{
   max-width: 194px;
+}
+
+.max-w-\[199px\]{
+  max-width: 199px;
 }
 
 .max-w-\[19px\]{
@@ -1367,6 +1388,10 @@ video {
 
 .max-w-\[369px\]{
   max-width: 369px;
+}
+
+.max-w-\[37px\]{
+  max-width: 37px;
 }
 
 .max-w-\[388px\]{
@@ -2273,11 +2298,6 @@ video {
   padding-right: 10px;
 }
 
-.px-\[15px\]{
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .px-\[27px\]{
   padding-left: 27px;
   padding-right: 27px;
@@ -2387,6 +2407,10 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.pb-\[10px\]{
+  padding-bottom: 10px;
+}
+
 .pb-\[12px\]{
   padding-bottom: 12px;
 }
@@ -2413,10 +2437,6 @@ video {
 
 .pb-\[24px\]{
   padding-bottom: 24px;
-}
-
-.pb-\[25px\]{
-  padding-bottom: 25px;
 }
 
 .pb-\[29px\]{
@@ -2607,6 +2627,10 @@ video {
   padding-right: 8.58px;
 }
 
+.pr-\[8\.98px\]{
+  padding-right: 8.98px;
+}
+
 .pt-0{
   padding-top: 0px;
 }
@@ -2665,10 +2689,6 @@ video {
 
 .pt-\[8px\]{
   padding-top: 8px;
-}
-
-.pt-\[11\]{
-  padding-top: 11;
 }
 
 .text-left{
@@ -2889,12 +2909,12 @@ video {
   letter-spacing: -2.02px;
 }
 
-.tracking-\[-3\.18px\]{
-  letter-spacing: -3.18px;
+.tracking-\[-2\.4px\]{
+  letter-spacing: -2.4px;
 }
 
-.tracking-\[-5\.24px\]{
-  letter-spacing: -5.24px;
+.tracking-\[-3\.18px\]{
+  letter-spacing: -3.18px;
 }
 
 .tracking-normal{
@@ -2907,10 +2927,6 @@ video {
 
 .tracking-tighter{
   letter-spacing: -0.05em;
-}
-
-.tracking-\[-5\.24\]{
-  letter-spacing: -5.24;
 }
 
 .text-\[\#000000\]{
@@ -3087,6 +3103,10 @@ video {
     margin-top: 50px;
   }
 
+  .sm\:mt-1{
+    margin-top: 0.25rem;
+  }
+
   .sm\:block{
     display: block;
   }
@@ -3100,10 +3120,6 @@ video {
   }
 
   .sm\:w-\[100\%\]{
-    width: 100%;
-  }
-
-  .sm\:w-full{
     width: 100%;
   }
 
@@ -3282,9 +3298,19 @@ video {
     padding-right: 2rem;
   }
 
+  .sm\:px-\[15px\]{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .sm\:py-0{
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .sm\:px-1{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .sm\:pb-\[19\.49px\]{
@@ -3293,6 +3319,10 @@ video {
 
   .sm\:pb-\[24px\]{
     padding-bottom: 24px;
+  }
+
+  .sm\:pb-\[25px\]{
+    padding-bottom: 25px;
   }
 
   .sm\:pb-\[39px\]{
@@ -3355,16 +3385,16 @@ video {
     padding-top: 0px;
   }
 
+  .sm\:pt-\[15px\]{
+    padding-top: 15px;
+  }
+
   .sm\:pt-\[35px\]{
     padding-top: 35px;
   }
 
   .sm\:pt-\[42px\]{
     padding-top: 42px;
-  }
-
-  .sm\:pt-\[15px\]{
-    padding-top: 15px;
   }
 
   .sm\:text-\[12px\]{
